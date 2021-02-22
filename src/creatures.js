@@ -12,7 +12,7 @@ const creatures = [
   {
     "name": "phoenix",
     "ability": "When it is old and weary, its body ignites in flame and it arises anew from the ashes of its predecessor.",
-    "age": null
+    "age": null,
   }
 ]
 
