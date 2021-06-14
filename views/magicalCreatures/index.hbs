@@ -1,0 +1,15 @@
+<h1>Magical Creatures</h1>
+
+    {{!-- {{ log creatures }} --}}
+<ul>
+  {{#each creatures }}
+    
+    {{!-- {{ log this }} --}}
+    <li>
+      <a href="/magical-creatures/{{this.name}}">
+        {{this.name}}
+      </a>
+    </li>
+  
+  {{/each}}
+</ul>
